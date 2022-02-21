@@ -3,5 +3,3 @@ let buttons = document.querySelectorAll(".styled-button"); for (let t = 0; t < b
 
 let btnWidth = document.querySelector(".hover-button")
 btnWidth.style.setProperty("--hvrBtn", btnWidth.offsetWidth*3 + "px")
-
-console.log(btnWidth.offsetWidth);
